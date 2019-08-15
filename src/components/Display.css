@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+#display {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: Orbitron;
+  background-color: #3F5666;
+  padding: 10px;
+  border: 1px solid #47476b;
+  overflow: hidden;
+}
+
+#formula {
+  color: #AAA;
+}
+
+#input {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #FFF;
+}

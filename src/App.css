@@ -1,0 +1,33 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#efefef, #bfbfbf)
+}
+
+.logo {
+  font-family: monospace;
+  font-size: 3vmax;
+  letter-spacing: 0.5vw;
+  text-decoration-line: overline;
+}
+
+.calculator {
+  width: 320px;
+  max-width: 100%;
+  flex-shrink: 1;
+  border: 2px solid #47476b;
+  padding: 5px;
+  background-color: #3a3a3a;
+}
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+}
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+}
